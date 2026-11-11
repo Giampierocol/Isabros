@@ -1,0 +1,371 @@
+{
+"h_forest": {
+"w": 1584,
+"h": 672,
+"band": 0.735,
+"gc": "#2d3a2a",
+"top": "#2d4e36",
+"mode": "cover",
+"drawh": null
+},
+"h_street": {
+"w": 1584,
+"h": 672,
+"band": 0.693,
+"gc": "#14111c",
+"top": "#5c7e4d",
+"mode": "cover",
+"drawh": null
+},
+"h_hall": {
+"w": 1584,
+"h": 672,
+"band": 0.86,
+"gc": "#e39994",
+"top": "#604443",
+"mode": "cover",
+"drawh": null
+},
+"h_stage": {
+"w": 1584,
+"h": 672,
+"band": 0.86,
+"gc": "#e4928c",
+"top": "#703a32",
+"mode": "cover",
+"drawh": null
+},
+"h_alley": {
+"w": 1584,
+"h": 672,
+"band": 0.83,
+"gc": "#5e3a22",
+"top": "#4ba7ec",
+"mode": "cover",
+"drawh": null
+},
+"h_beachtown": {
+"w": 1584,
+"h": 672,
+"band": 0.802,
+"gc": "#5a3429",
+"top": "#49aae3",
+"mode": "cover",
+"drawh": null
+},
+"s_jeep": {
+"w": 682,
+"h": 260,
+"band": 0.75,
+"gc": "#472e18",
+"top": "#4a6953",
+"mode": "cover",
+"drawh": null
+},
+"s_lido": {
+"w": 682,
+"h": 189,
+"band": 0.72,
+"gc": "#7a7a5e",
+"top": "#6b7353",
+"mode": "strip",
+"drawh": 250
+},
+"s_stalls": {
+"w": 682,
+"h": 218,
+"band": 0.8,
+"gc": "#18171f",
+"top": "#331d58",
+"mode": "strip",
+"drawh": 290
+},
+"s_stalls2": {
+"w": 775,
+"h": 153,
+"band": 0.856,
+"gc": "#1b1823",
+"top": "#291850",
+"mode": "strip",
+"drawh": 210
+},
+"s_sunset": {
+"w": 774,
+"h": 153,
+"band": 0.856,
+"gc": "#1a1823",
+"top": "#41266a",
+"mode": "strip",
+"drawh": 210
+},
+"s_night": {
+"w": 333,
+"h": 277,
+"band": 0.83,
+"gc": "#0d0b15",
+"top": "#070135",
+"mode": "cover",
+"drawh": null
+},
+"s_nightroad": {
+"w": 680,
+"h": 218,
+"band": 0.743,
+"gc": "#050509",
+"top": "#152342",
+"mode": "strip",
+"drawh": 250
+},
+"s_shore": {
+"w": 774,
+"h": 152,
+"band": 0.73,
+"gc": "#26272f",
+"top": "#78afaa",
+"mode": "strip",
+"drawh": 210
+},
+"s_dayroad": {
+"w": 774,
+"h": 152,
+"band": 0.73,
+"gc": "#15171f",
+"top": "#9adae4",
+"mode": "strip",
+"drawh": 210
+},
+"s_mush": {
+"w": 332,
+"h": 264,
+"band": 0.773,
+"gc": "#482f1a",
+"top": "#383d31",
+"mode": "cover",
+"drawh": null
+},
+"s_pine": {
+"w": 774,
+"h": 318,
+"band": 0.733,
+"gc": "#482e1d",
+"top": "#436551",
+"mode": "cover",
+"drawh": null
+},
+"s_beach": {
+"w": 774,
+"h": 318,
+"band": 0.748,
+"gc": "#c26619",
+"top": "#71aab2",
+"mode": "cover",
+"drawh": null
+},
+"v_gelato": {
+"w": 333,
+"h": 228,
+"band": 0.877,
+"gc": "#322833",
+"top": "#2c165b",
+"mode": "cover",
+"drawh": null
+},
+"v_kiosk": {
+"w": 332,
+"h": 264,
+"band": 0.769,
+"gc": "#c06315",
+"top": "#dab574",
+"mode": "cover",
+"drawh": null
+},
+"v_lighthouse": {
+"w": 682,
+"h": 233,
+"band": 0.416,
+"gc": "#232c52",
+"top": "#452667",
+"mode": "cover",
+"drawh": null
+},
+"v_walk": {
+"w": 682,
+"h": 1229,
+"band": 0.887,
+"gc": "#482d1c",
+"top": "#243038",
+"mode": "cover",
+"drawh": null
+},
+"room_mirrors": {
+"w": 545,
+"h": 316,
+"band": 0.84,
+"gc": "#3a2a20",
+"top": "#000000",
+"mode": "room",
+"drawh": null
+},
+"room_carousel": {
+"w": 425,
+"h": 316,
+"band": 0.84,
+"gc": "#3a2a20",
+"top": "#000000",
+"mode": "room",
+"drawh": null
+},
+"room_balls": {
+"w": 496,
+"h": 316,
+"band": 0.84,
+"gc": "#3a2a20",
+"top": "#000000",
+"mode": "room",
+"drawh": null
+},
+"room_armory1": {
+"w": 488,
+"h": 242,
+"band": 0.84,
+"gc": "#3a2a20",
+"top": "#000000",
+"mode": "room",
+"drawh": null
+},
+"room_armory2": {
+"w": 472,
+"h": 242,
+"band": 0.84,
+"gc": "#3a2a20",
+"top": "#000000",
+"mode": "room",
+"drawh": null
+},
+"room_lab": {
+"w": 496,
+"h": 242,
+"band": 0.84,
+"gc": "#3a2a20",
+"top": "#000000",
+"mode": "room",
+"drawh": null
+},
+"b_forest": {
+"w": 0,
+"h": 0,
+"band": 0.75,
+"gc": "#4b3a22",
+"top": "#4b3a22",
+"mode": "cover",
+"drawh": null
+},
+"b_beach": {
+"w": 0,
+"h": 0,
+"band": 0.7235,
+"gc": "#c06a1c",
+"top": "#c06a1c",
+"mode": "cover",
+"drawh": null
+},
+"b_sea": {
+"w": 0,
+"h": 0,
+"band": 0.8735,
+"gc": "#2b1f3a",
+"top": "#2b1f3a",
+"mode": "cover",
+"drawh": null
+},
+"b_ville": {
+"w": 0,
+"h": 0,
+"band": 0.75,
+"gc": "#4a4a55",
+"top": "#4a4a55",
+"mode": "cover",
+"drawh": null
+},
+"b_hall": {
+"w": 0,
+"h": 0,
+"band": 0.8824,
+"gc": "#c03030",
+"top": "#c03030",
+"mode": "cover",
+"drawh": null
+},
+"b_street": {
+"w": 0,
+"h": 0,
+"band": 0.75,
+"gc": "#222",
+"top": "#222",
+"mode": "cover",
+"drawh": null
+},
+"b_rest": {
+"w": 0,
+"h": 0,
+"band": 0.75,
+"gc": "#222",
+"top": "#222",
+"mode": "cover",
+"drawh": null
+},
+"r_garden": {
+"w": 397,
+"h": 0,
+"band": 0.8853,
+"gc": "#000",
+"top": "#000",
+"mode": "room",
+"drawh": null
+},
+"r_sala": {
+"w": 427,
+"h": 0,
+"band": 0.9706,
+"gc": "#000",
+"top": "#000",
+"mode": "room",
+"drawh": null
+},
+"r_cucina": {
+"w": 708,
+"h": 0,
+"band": 0.9735,
+"gc": "#000",
+"top": "#000",
+"mode": "room",
+"drawh": null
+},
+"r_ball": {
+"w": 460,
+"h": 0,
+"band": 0.9676,
+"gc": "#000",
+"top": "#000",
+"mode": "room",
+"drawh": null
+},
+"r_corr": {
+"w": 470,
+"h": 0,
+"band": 0.9235,
+"gc": "#000",
+"top": "#000",
+"mode": "room",
+"drawh": null
+},
+"r_cant": {
+"w": 554,
+"h": 0,
+"band": 0.8971,
+"gc": "#000",
+"top": "#000",
+"mode": "room",
+"drawh": null
+}
+}
