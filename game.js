@@ -61,10 +61,10 @@ function star(px,py,r,rot,col='#ffe14a'){x.save();x.translate(px,py);x.rotate(ro
 function loadAll(done){let n=0;const tot=SPR.length+BGS.length+1;
 const ok=()=>{n++;if(n>=tot)done();else{x.fillStyle='#10131c';x.fillRect(0,0,800,340);T('Super Isa Bros',400,150,34,'#ffe066');x.fillStyle='#fff3';x.fillRect(250,200,300,10);x.fillStyle='#ffd23f';x.fillRect(250,200,300*n/tot,10)}};
 x.setTransform(2,0,0,2,0,0);
-for(const k of SPR){const i=new Image();i.onload=ok;i.onerror=ok;i.src='assets/sp/'+k+'.png';I[k]=i}
-for(const k of BGS){const i=new Image();i.onload=ok;i.onerror=ok;i.src='assets/bg/'+k+'.jpg';I[k]=i}
-const l=new Image();l.onload=ok;l.onerror=ok;l.src='assets/ui/logo.png';I.logo=l;
-fetch('assets/bg/meta.json').then(r=>r.json()).then(j=>{Object.assign(M,j)}).catch(()=>{})}
+for(const k of SPR){const i=new Image();i.onload=ok;i.onerror=ok;i.src='sp/'+k+'.png';I[k]=i}
+for(const k of BGS){const i=new Image();i.onload=ok;i.onerror=ok;i.src='bg/'+k+'.jpg';I[k]=i}
+const l=new Image();l.onload=ok;l.onerror=ok;l.src='ui/logo.png';I.logo=l;
+fetch('bg/meta.json').then(r=>r.json()).then(j=>{Object.assign(M,j)}).catch(()=>{})}
 /* layout sfondo: scala, offset, altezza del terreno */
 function lay(n){const m=M[n]||{band:.8,mode:'cover'},im=I[n],w=im.width||800,h=im.height||340;
 if(m.mode=='room'){const s=340/h;return{s,w:w*s,dh:340,band:m.band,top:m.top,gl:Math.round(m.band*340)}}
