@@ -1,0 +1,20 @@
+<!DOCTYPE html><html lang="it"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="theme-color" content="#000000">
+<link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="assets/ui/icon-192.png">
+<title>Super Isa Bros</title>
+<style>html,body{margin:0;height:100%;background:#000;overflow:hidden;touch-action:none;user-select:none;-webkit-user-select:none;-webkit-touch-callout:none;font-family:system-ui,sans-serif}
+#c{position:absolute;image-rendering:auto}
+.b{position:absolute;bottom:calc(14px + env(safe-area-inset-bottom,0px));width:68px;height:68px;border-radius:50%;background:#ffffff40;border:2px solid #ffffffa0;color:#fff;font:700 24px system-ui;display:none;align-items:center;justify-content:center;touch-action:none;-webkit-tap-highlight-color:transparent}
+body.play .b{display:flex}
+#mu,#ps{display:none!important}
+#rot{display:none;position:absolute;inset:0;background:#000;color:#fff;align-items:center;justify-content:center;text-align:center;font:600 20px system-ui;z-index:9}
+@media(orientation:portrait){#rot{display:flex}}</style></head><body>
+<canvas id="c"></canvas>
+<div id="rot">Ruota il telefono in orizzontale 📱↔️</div>
+<div class="b" id="l" style="left:calc(14px + env(safe-area-inset-left,0px))">◀</div><div class="b" id="r" style="left:calc(96px + env(safe-area-inset-left,0px))">▶</div>
+<div class="b" id="j" style="right:calc(96px + env(safe-area-inset-right,0px))">⤒</div><div class="b" id="a" style="right:calc(14px + env(safe-area-inset-right,0px))">⚔</div>
+<script src="game.js"></script>
+<script>if('serviceWorker' in navigator&&location.protocol.startsWith('http'))navigator.serviceWorker.register('sw.js').catch(()=>{})</script>
+</body></html>
